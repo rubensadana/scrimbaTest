@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    background-color: #1b244a;
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    grid-gap: 20px;
+}
+
+.scorepanel {
+    display: flex;
+    justify-content: space-between;
+}
+
+.scorecard {
+    width: 155px;
+    height: 120px;
+    background-color: #080001;
+    color: #f94f6d;
+    font-size: 60px;
+    padding-top: 40px;
+}
+
+.scorebutton {
+    background-color: transparent;
+    margin-top: 8px;
+    border: 1px solid white;
+    color: white;
+    padding: 5px 8px;
+    ;
+}
